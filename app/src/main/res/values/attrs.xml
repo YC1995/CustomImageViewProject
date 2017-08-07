@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义ImageView属性-->
+    <declare-styleable name="CustomImageView">
+        <attr name="min_scale_factor" format="float"/>
+        <attr name="max_scale_factor" format="float"/>
+        <attr name="can_back_translate" format="boolean"/>
+        <attr name="can_back_rotate" format="boolean"/>
+        <attr name="can_back_scale" format="boolean"/>
+        <attr name="animator_time" format="integer"/>
+    </declare-styleable>
+</resources>
